@@ -10,11 +10,13 @@ func main() {
 	const (
 		a    = iota
 		b    = iota
+		c    = iota
 		iota = iota
+
 	)
 	//var s = iota
 	//var t = iota
 	fmt.Println("p-- ", p)
 	fmt.Println("q-- ", q)
-	fmt.Println("a-- ", "b-- ", "iota-- ", a, b, iota)
+	fmt.Println("a-- ", "b-- ","c-- "  "iota-- ", a, b, c, iota)
 }
